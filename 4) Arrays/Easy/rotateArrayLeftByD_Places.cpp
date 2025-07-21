@@ -15,6 +15,7 @@ int main(){
     cout << "\n";
     cout << "D: ";
     int d; cin >> d;
+    d = d % n;
 
     vector<int> temp;
 
